@@ -4,11 +4,12 @@ A simple Hello World application demonstrating CI/CD pipelines with Google Cloud
 
 ## Overview
 
-This repository contains a minimal Python Flask application that returns a JSON "Hello World" response. It's designed to demonstrate how to set up continuous integration and continuous deployment with Google Cloud Run.
+This repository contains a minimal Python HTTP function that returns a JSON "Hello World" response. It's designed to demonstrate how to set up continuous integration and continuous deployment with Google Cloud Run.
 
 ## Features
 
-- Simple Flask application
+- Simple Functions Framework HTTP function
+- Pure Python implementation (no Flask)
 - Docker containerization
 - Cloud Build integration
 - Automatic deployment to Cloud Run
@@ -33,8 +34,8 @@ This repository contains a minimal Python Flask application that returns a JSON 
 
 1. Clone this repository:
 ```
-git clone https://github.com/yourusername/cloudrun-demo.git
-cd cloudrun-demo
+git clone https://github.com/yourusername/pythondockerexample.git
+cd pythondockerexample
 ```
 
 2. Install dependencies:
